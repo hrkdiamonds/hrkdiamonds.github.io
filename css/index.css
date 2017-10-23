@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --back-color: #05040b;
+  --gold-color: #f8d361;
+  --gold-color-intense: #d4ad37;
+}
+
+
+body {
+  background-color: var(--back-color);
+  background-image: url('../assets/Backgroundhrk.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.the-navbar {
+  height: 70px;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  position: absolute;
+  top: 0px;
+}
+
+.the-brandbar {
+  height: 100%;
+  width: 150px;
+  overflow: hidden;
+  background-image: url('../assets/leftlogo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.brand-photo {
+  height: 100%;
+  padding: 2px;
+  background-image: url('../assets/hrklogo.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.all-links {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.link-box {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.link-text, .link-text:hover, .link-text:focus {
+  text-decoration: none;
+  font-size: 19px;
+  cursor: pointer;
+  color: var(--gold-color);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.link-text:hover {
+  color: var(--gold-color-intense);
+}
+
+.header-wall {
+  height: 690px;
+  width: 100%;
+  background-image: url('../assets/backgroundwall.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.header-wall-p {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.the-text-box {
+  padding: 140px;
+  padding-top: 0px;
+  position: relative;
+}
+
+.the-text {
+  font-size: 14px;
+  color: var(--gold-color);
+  line-height: 190%;
+  padding: 17px;
+  position: relative;
+}
+
+.leftline {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 150px;
+  width: 1px;
+  background-color: var(--gold-color);
+}
+
+.bottomline {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 1px;
+  width: 150px;
+  background-color: var(--gold-color);
+}
+
+
+.bottom-part {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.name-sr {
+  color: var(--gold-color);
+  line-height: 190%;
+  font-size: 24px;
+  font-family: 'Great Vibes', cursive;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #272626;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #a70800;
+}
